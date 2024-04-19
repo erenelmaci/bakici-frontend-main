@@ -1,0 +1,122 @@
+.AnaUyelik-container {
+  visibility: hidden;
+}
+
+.AnaUyelik-container.active {
+  visibility: visible;
+}
+
+.AnaUyelik-bg {
+  opacity: 0;
+}
+
+.AnaUyelik-bg.active {
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00000086;
+  z-index: 50;
+  transition: all 1s ease-in-out;
+}
+
+.AnaUyelik {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.AnaUyelik.active {
+  transition: all 1s ease-in-out;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 672px;
+  width: 80%;
+  background-color: #ffffff;
+  z-index: 50;
+}
+
+.AnaUyelik-nav-logo {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.AnaUyelik-nav-logo-h1 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #467888;
+}
+
+.AnaUyelik-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 1rem;
+}
+
+.AnaUyelik-buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.AnaUyelik-main-left,
+.AnaUyelik-main-right {
+  text-align: center;
+}
+
+.AnaUyelik-main-left-img {
+  width: 208px;
+  height: 208px;
+}
+
+.AnaUyelik-main-left-img:hover {
+
+  transform: scale(1.1);
+  transition: 0.5s;
+  filter: brightness(150%)
+}
+
+.AnaUyelik-main-left-p {
+  font-family: "Georama";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #455a64;
+}
+
+.AnaUyelik-main-right-img {
+  width: 208px;
+  height: 208px;
+}
+
+.AnaUyelik-main-right-img:hover {
+
+  transform: scale(1.1);
+  transition: 0.5s;
+  filter: brightness(150%)
+}
+
+.AnaUyelik-main-right-p {
+  font-family: "Georama";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #455a64;
+}

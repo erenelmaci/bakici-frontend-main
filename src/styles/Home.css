@@ -1,0 +1,108 @@
+.Form-Label {
+  display: flex;
+  color: #455a64;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Georama";
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url("../assets/calendar.svg") no-repeat;
+  border-width: thin;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 22px;
+}
+
+#Choose-date {
+  padding-left: 21px;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Search-Logo {
+  margin: 16px 0 16px 20px;
+}
+.Location,
+.Arrow,
+.Child {
+  cursor: pointer;
+}
+.Arrow {
+  width: 17px;
+  height: 16px;
+  position: relative;
+  bottom: 46px;
+  left: 260px;
+}
+.Arrow-tarih {
+  width: 18px;
+  height: 18.5px;
+  position: relative;
+  bottom: 40px;
+  left: 303px;
+}
+.Child {
+  width: 24px;
+  color: #c7c7c7;
+  height: 24px;
+  position: relative;
+  bottom: 26px;
+  left: 24px;
+}
+
+.Location {
+  width: 22px;
+  color: #c7c7c7;
+  height: 27px;
+  position: relative;
+  bottom: 29px;
+  left: 24px;
+}
+
+.Form-Label-location {
+  position: relative;
+  top: 6px;
+  right: 70px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeLastComp {
+  padding: 2rem 0;
+}
+.HomeLastCompLogo {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem auto;
+
+}
+.HomeLastCompText {
+  font-size: 2rem;
+  font-family: "Prompt";
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(69, 90, 100, 0.9);
+}

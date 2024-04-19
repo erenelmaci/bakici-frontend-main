@@ -1,0 +1,306 @@
+.bakici-detail-container {
+  max-width: 100%;
+  background-color: rgba(245, 245, 245, 0.3);
+  border-radius: 7px;
+  box-shadow: 5px 5px rgba(206, 205, 205, 0.3);
+}
+.bakici-detail-slider-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+}
+
+.bakici-detail-name-container {
+  font-family: "Georama", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  line-height: 57px;
+  color: #455a64;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+}
+.bakici-detail-star-rate {
+  font-family: "Georama";
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(69, 90, 100, 1);
+}
+
+.heart-icon {
+  max-width: 20%;
+}
+
+.slider-bottom-hr {
+  border: 1px solid rgba(69, 90, 100, 0.5);
+  width: 100%;
+  margin: 3rem auto;
+  /* margin-bottom: 76px; */
+}
+.bakici-detail-favorilenme {
+  font-family: "Georama";
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 0.75rem;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(232, 131, 133, 1);
+}
+
+.bakici-detail-hakkinda-container {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.bakici-detail-hakkinda-container h5 {
+  font-size: 2.25rem;
+  font-family: "Georama", sans-serif;
+  margin-bottom: 1rem;
+  color: rgba(69, 90, 100, 1);
+}
+
+.bakici-detail-hakkinda-container p {
+  font-family: "Georama", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.deneyim-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.deneyim-container h5 {
+  font-size: 2.25rem;
+  font-family: "Georama", sans-serif;
+  margin-bottom: 1rem;
+  color: rgba(69, 90, 100, 1);
+}
+
+.deneyim-container p {
+  font-family: "Georama", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  /* line-height: 28.66px; */
+  margin: 0;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.servisler-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.servisler-container h5 {
+  font-size: 2.25rem;
+  font-family: "Georama", sans-serif;
+  margin-bottom: 1rem;
+  color: rgba(69, 90, 100, 1);
+}
+
+.servisler-container p {
+  font-family: "Georama", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  /* line-height: 28.66px; */
+  margin: 0;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.tarife-container {
+  padding: 0 5rem;
+}
+
+.tarife-container h6 {
+  color: rgba(70, 120, 136, 1);
+}
+
+.tarife-ücret h4 {
+  color: rgba(69, 90, 100, 1);
+}
+
+.ek-servisler-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.ek-servisler-container h5 {
+  font-size: 2.25rem;
+  font-family: "Georama", sans-serif;
+  margin-bottom: 1rem;
+  color: rgba(69, 90, 100, 1);
+}
+
+.ek-servisler-container p {
+  font-family: "Georama", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  /* line-height: 28.66px; */
+  margin: 0;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.ek-servis-content {
+  margin: 0, 5rem;
+}
+
+.Kontakt-Form-Label-1 {
+  width: 90%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  color: #455a64;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Georama";
+}
+
+.tarih-container {
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.tarife-select {
+  width: 95%;
+  margin: auto;
+  font-family: Georama;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.yorumlar-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.yorumlar-container h5 {
+  font-size: 2.25rem;
+  font-family: "Georama", sans-serif;
+  margin: 3rem 0;
+  color: rgba(69, 90, 100, 1);
+}
+
+.yorumlar-container p {
+  font-family: "Georama", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  /* line-height: 28.66px; */
+  margin: 2% 0;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 0 5%;
+}
+
+/*  */
+
+.bakici-detail-yorumlar-data {
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 118px;
+  border: 1px solid #455a64;
+  /* min-width: 80vw; */
+  background: #fff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.11),
+    1px 2px 2px 0px rgba(0, 0, 0, 0.15), 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.bakici-detail-yorumlar-data-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 55px;
+}
+
+.bakici-detail-yorumlar-data-bottom {
+  display: flex;
+  color: rgba(69, 90, 100, 1);
+  font-family: Georama;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  padding: 10px 55px;
+}
+
+.bakici-detail-yorumlar-data-top-left-img {
+  /* max-width: 100%; */
+  position: relative;
+  top: -50px;
+}
+
+
+/*  */
+
+@media (max-width: 768px) {
+  .bakici-detail-favorilenme {
+    font-size: 1rem;
+  }
+
+  .bakici-detail-star-rate {
+    font-size: 0.75rem;
+    line-height: 18px;
+    letter-spacing: 0em;
+  }
+
+  .heart-icon {
+    max-width: 20%;
+  }
+
+  .bakici-detail-hakkinda-container h5 {
+    font-size: 1.25rem;
+  }
+  .deneyim-container h5 {
+    font-size: 1.25rem;
+  }
+  .servisler-container h5 {
+    font-size: 1.25rem;
+  }
+
+  .ek-servisler-container h5 {
+    font-size: 1.25rem;
+  }
+
+  .yorumlar-container h5 {
+    font-size: 1.25rem;
+  }
+}
+
+.page-link {
+  margin: 0 20%;
+}
+
+.next-item {
+  background-color: rgba(70, 120, 136, 1);
+  color: white;
+}
+
+.page-item {
+  display: flex;
+  width: 4%;
+  justify-content: center;
+  align-items: center;
+}
+
+.active-page {
+  background-color: red;
+}

@@ -1,0 +1,135 @@
+.Footer {
+  position: relative;
+  width: 100%;
+  background-color: #37474f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.footer-container-row{
+  display: flex;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-column1 {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.footer-column5 {
+align-self: center;
+}
+
+
+.Footer-Fİrst {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around; 
+
+}
+
+.Footer-Fİrst-First {
+  align-self: center;
+
+}
+
+
+.Footer-Fİrst-First-Logo {
+  max-width: 100%;
+}
+
+
+
+.Footer-Fİrst-Second,
+.Footer-Fİrst-Third,
+.Footer-Fİrst-Fourth {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-items: center;
+}
+.Footer-Fİrst-Second-Title,
+.Footer-Fİrst-Third-Title,
+.Footer-Fİrst-Fourth-Title {
+  font-family: "Prompt";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #c7c7c7;
+  margin-bottom: 45px;
+}
+
+.Footer-Fİrst-Second-Link,
+.Footer-Fİrst-Third-Link,
+.Footer-Fİrst-Fourth-Link {
+  font-family: "Prompt";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #c7c7c7;
+  text-decoration: none;
+}
+
+.Footer-Fİrst-Fifth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer-Fİrst-Fifth-First,
+.Footer-Fİrst-Fifth-Second,
+.Footer-Fİrst-Fifth-Third {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.klarna,
+.mastercard{
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    color: #EBEBEB;
+}
+.mastercard{
+    margin-left: 10px;
+}
+.Footer-Second {
+  width: 100%;
+  height: 48px;
+  border-top: 0.5px solid #ebebeb;
+  text-align: center;
+  padding: auto; 
+}
+.Footer-Second-Text{
+    font-family: "Prompt";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 48px;
+    color: #c7c7c7;
+}
